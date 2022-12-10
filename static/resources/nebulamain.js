@@ -142,7 +142,7 @@ window.addEventListener("load", () => {
               const _popout = window.open("/blob", "_self")
               const blob = _popout.document
               // Write all of the neccesary page elements, and the Options including the cloak (if enabled)
-              // The blob writing is just the background elements, like the "Nebula is loading your content, please wait" screen. It does not carry proxied content, or even the iframe.
+              // The blob writing is just the background elements, like the "rice web is loading your content, please wait" screen. It does not carry proxied content, or even the iframe.
               blob.write(`
            <script> 
            function handleTabLeave(activeInfo) {
@@ -174,7 +174,7 @@ document.addEventListener("visibilitychange", handleTabLeave)
           
            <style>@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";/* CSSTidy 1.5.2: Fri, 11 Nov 2022 17:13:44 +0000 */body{background:#191724;color:#fff}div{margin-top:30px;font-size:100px;text-align:center;font-family:"Roboto";font-weight:700}.loader .b1{left:42%}.loader .b2{left:50%;animation-delay:100ms}.loader .b3{left:58%;animation-delay:200ms;color:#eb6f92}.loader .b1,.loader .b2,.loader .b3{width:10px;height:30px;position:absolute;top:50%;transform:rotate(0);animation-name:spinify;animation-duration:1600ms;animation-iteration-count:infinite;color:#eb6f92;background-color:#eb6f92}@keyframes spinify{0%{transform:translate(0px,0px)}33%{transform:translate(0px,24px);border-radius:100%;width:10px;height:10px}66%{transform:translate(0px,-16px)}88%{transform:translate(0px,4px)}100%{transform:translate(0px,0px)}}</style> 
            <div class="loader">
-  <div>Nebula is loading your content!</div>
+  <div>rice web is loading your content!</div>
   <div style='font-size:35px;'>Please wait</div>
   <div class="b1"></div> 
   <div class="b2"></div>
