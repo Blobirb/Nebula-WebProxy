@@ -1,1 +1,1 @@
-Runs Monitor Plugins for Lenovo x3 
+Runs Monitor Plugins for Lenovo N33
