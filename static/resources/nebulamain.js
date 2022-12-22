@@ -125,7 +125,7 @@ window.addEventListener("load", () => {
         .then(() => {
           const value = event.target.firstElementChild.value
           let url = value.trim()
-          if (!isUrl(url)) url = "https://duckduckgo.com/?q=" + url + "&t=h_&ia=web"
+          if (!isUrl(url)) url = "https://search.brave.com/search?q=" + url + "&source=web"
           if (!(url.startsWith("https://") || url.startsWith("http://")))
             url = "http://" + url
           // encode the URL for UltraViolet
